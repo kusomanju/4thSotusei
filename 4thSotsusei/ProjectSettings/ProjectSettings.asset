@@ -135,7 +135,11 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 0.1
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: f014c0891bc411140b8467aed92fccd9, type: 2}
+  - {fileID: 11400000, guid: a6f87ec3cdcf4684e90407cb7725ee1c, type: 2}
+  - {fileID: 770700279360587662, guid: 755baab72ec137f489875882251d3d6c, type: 2}
+  - {fileID: -7712179319285134951, guid: be73544ea42902c4f972f46a96ba972b, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -156,6 +160,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.DefaultCompany.4thSotsusei
+    Standalone: com.DefaultCompany.4thSotsusei
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -169,7 +174,7 @@ PlayerSettings:
   stripEngineCode: 1
   iPhoneStrippingLevel: 0
   iPhoneScriptCallOptimization: 0
-  ForceInternetPermission: 0
+  ForceInternetPermission: 1
   ForceSDCardPermission: 0
   CreateWallpaper: 0
   APKExpansionFiles: 0

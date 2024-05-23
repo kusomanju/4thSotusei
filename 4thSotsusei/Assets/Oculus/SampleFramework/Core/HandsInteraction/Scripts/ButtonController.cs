@@ -168,7 +168,7 @@ namespace OculusSampleFramework
             {
                 // plane describing positive side of button
                 var buttonZonePlane = new Plane(-currButtonDirection, _buttonPlaneCenter.position);
-                // skip plane test if the boolean flag tells us not to test it
+                // skip plane test if the boolean NMeCab_ParseFlag tells us not to test it
                 bool onPositiveSideOfButton = !_makeSureToolIsOnPositiveSide ||
                                               buttonZonePlane.GetSide(interactableTool.InteractionPosition);
                 upcomingState = GetUpcomingStateNearField(oldState, newCollisionDepth,
@@ -186,7 +186,7 @@ namespace OculusSampleFramework
             }
 
             // far field tools depend on max state set
-            // (or if proper flag is set for near field tools)
+            // (or if proper NMeCab_ParseFlag is set for near field tools)
             bool setMaxStateForAllTools = isFarFieldTool ||
                                           _allowMultipleNearFieldInteraction;
             if (setMaxStateForAllTools)
