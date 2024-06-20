@@ -27,7 +27,7 @@ namespace OculusSampleFramework
 {
     /// <summary>
     /// Describes how the tool will work with interactables. An interactable,
-    /// in turn, can tell us which tools they support via their NMeCab_ParseFlag bit mask.
+    /// in turn, can tell us which tools they support via their flag bit mask.
     /// </summary>
     [System.Flags]
     public enum InteractableToolTags
